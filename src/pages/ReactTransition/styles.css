@@ -1,0 +1,49 @@
+.item-enter {
+    opacity: 0;
+}
+
+.item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.item-exit {
+    opacity: 1;
+}
+
+.item-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.balls {
+    display: flex;
+}
+
+.ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    background-color: #2196f3;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.ball:first-child {
+    margin-left: 0px;
+}
+
+.ball:last-child {
+    margin-right: 0px;
+}
+
+.ball.add {
+    background-color: #000;
+}
