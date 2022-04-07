@@ -96,3 +96,24 @@ input:checked+.slider:before {
     background: #69b5f3;
     border-radius: 50px;
 }
+
+.circle {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #2196F3;
+    width: 120px;
+    height: 120px;
+}
+
+.circle.animate:hover {
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

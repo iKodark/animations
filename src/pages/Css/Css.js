@@ -35,6 +35,22 @@ const Css = () => {
                     <div className='square animate' />
                 </div>
             </div>
+
+            <div className='component-group'>
+                <div className='component'>
+                    <label className='component-name'>Loading onHover (sem animação)</label>
+                    <div className='loading'>
+                        <div className='circle' />
+                    </div>
+                </div>
+
+                <div className='component'>
+                    <label className='component-name'>Loading onHover (com animação)</label>
+                    <div className='loading'>
+                        <div className='circle animate' />
+                    </div>
+                </div>
+            </div>
         </>
     );
 };

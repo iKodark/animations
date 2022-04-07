@@ -1,0 +1,17 @@
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    background-color: #2196f3;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
