@@ -1,3 +1,8 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
 .component {
     display: flex;
     align-items: center;
@@ -29,6 +34,10 @@
     border-radius: 20px;
     min-height: 200px;
     box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.component-group:last-child {
+    margin-bottom: 0px;
 }
 
 .animate {
@@ -116,4 +125,24 @@ input:checked+.slider:before {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.text {
+    margin-left: 20px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    background: #3a3a3a;
+    color: #fff;
+    font-weight: 500;
+    width: 50%;
+}
+
+.components {
+    width: 50%;
+}
+
+.link {
+    text-decoration: none;
+    color: #2196f3;
 }
